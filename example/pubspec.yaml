@@ -26,12 +26,12 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter_easyrefresh:
     git:
-      url: https://github.com/yinxing29/flutter_easy_refresh_copy.git #https://github.com/xuelongqy/flutter_easy_refresh.git
-      ref: a2517134202eafce25559888fcee215051ff0b6b #bf5fa0c26b7237afcd24cc8a54d46eabb84f1d33
+      url: https://github.com/yinxing29/flutter_easyrefresh_copy.git
+      ref: e3a0d7fd5bd5e71776a4b14efe96f7b39ea6bfe4
   flutter_tableview:
     path: ../
 
-#publish_to: 'none'
+publish_to: 'none'
 
 dev_dependencies:
   flutter_test:

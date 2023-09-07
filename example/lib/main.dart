@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'demo_tool/route_tool.dart';
 //page
 import 'demo_page/simple_demo_page.dart';
-import 'demo_page/wrap_refresh_demo_page.dart';
 
 void main() => runApp(App());
 
@@ -39,7 +38,6 @@ class Home extends StatelessWidget {
             TextButton(
 
               onPressed: () {
-                push(context, WrapRefreshDemoPage());
 
               },
               child: Text('wrap refresh demo'),
