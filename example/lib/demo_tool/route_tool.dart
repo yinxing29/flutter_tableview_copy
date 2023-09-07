@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 typedef PopCallback = Function(dynamic value);
 
-Future<dynamic> push(BuildContext context, Widget page, {String routeName, PopCallback popCallBack}) {
+Future<dynamic> push(BuildContext context, Widget page, {String? routeName, PopCallback? popCallBack}) {
 
   MaterialPageRoute route = MaterialPageRoute(builder: (BuildContext context){
 
@@ -35,17 +35,17 @@ void popToPage(BuildContext context, String pageClassName) {
 
 
 
-double screenWidth;
-double screenHeight;
-double pxRatio;
-MediaQueryData mediaQuery;
+late double screenWidth;
+late double screenHeight;
+double? pxRatio;
+MediaQueryData? mediaQuery;
 
 void initScreen(
-    {@required BuildContext context}) {
+    {required BuildContext context}) {
 
   if(mediaQuery == null) {
     mediaQuery = MediaQuery.of(context);
-    screenWidth = mediaQuery.size.width;
-    screenHeight = mediaQuery.size.height;
+    screenWidth = mediaQuery!.size.width;
+    screenHeight = mediaQuery!.size.height;
   }
 }

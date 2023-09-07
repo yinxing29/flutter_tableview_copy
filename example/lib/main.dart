@@ -30,13 +30,13 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            FlatButton(
+            TextButton(
               onPressed: () {
                 push(context, SimpleDemoPage());
               },
               child: Text('simple demo'),
             ),
-            FlatButton(
+            TextButton(
 
               onPressed: () {
                 push(context, WrapRefreshDemoPage());

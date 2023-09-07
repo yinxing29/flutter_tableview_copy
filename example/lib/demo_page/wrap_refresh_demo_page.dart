@@ -7,8 +7,6 @@ import 'package:example/demo_tool/route_tool.dart';
 
 //easyrefresh
 import 'package:flutter_easyrefresh/easy_refresh.dart';
-import 'package:flutter_easyrefresh/material_header.dart';
-import 'package:flutter_easyrefresh/material_footer.dart';
 
 class WrapRefreshDemoPage extends StatelessWidget {
   @override
