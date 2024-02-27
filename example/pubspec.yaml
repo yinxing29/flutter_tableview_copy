@@ -14,7 +14,7 @@ description: Flutter tableview example.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.2.0"
+  sdk: ">=2.12.0 <=3.2.0-199.0.dev"
 
 dependencies:
   flutter:
@@ -27,7 +27,7 @@ dependencies:
   flutter_easyrefresh:
     git:
       url: https://github.com/yinxing29/flutter_easyrefresh_copy.git
-      ref: e3a0d7fd5bd5e71776a4b14efe96f7b39ea6bfe4
+      ref: 7ffd05b2328a3ffd49b355ba2fa45ca160ea2b31
   flutter_tableview:
     path: ../
 
